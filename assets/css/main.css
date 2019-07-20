@@ -1627,7 +1627,6 @@ body.is-preload #wrapper {
   -webkit-object-position: center;
   -ms-object-position: center;
   object-position: center;
-  transform: rotate(-90deg);
 }
 #main > .panel.intro .pic .arrow {
   display: block;
@@ -1712,6 +1711,13 @@ body.is-preload #wrapper {
     font-size: 1em;
     margin: 0.25em 0 0 0;
   }
+}
+#main > .panel .projects {
+  margin-bottom: 100px;
+}
+#main > .panel .projects .button-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Footer */
