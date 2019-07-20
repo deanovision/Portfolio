@@ -1200,7 +1200,7 @@ header {
 }
 header > p {
   margin: 0.5em 0 0 0;
-  color: #aaa;
+  color: #a8a8a8;
 }
 @media screen and (max-width: 736px) {
   header {
