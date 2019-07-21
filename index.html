@@ -87,21 +87,30 @@
                 <p>
                   This project connects users that have great ideas for mobile
                   or web apps with the developers capable of turning those ideas
-                  into reality.
+                  into reality. Build My App was a 4 week long group project
+                  with 5 team members, built with React, Node, Express,
+                  PostgreSQL.
                 </p>
                 <p>Project Overview</p>
                 <ul>
                   <li>
-                    4 week long group project with 5 team members
+                    Implemented authentication using Auth0
                   </li>
                   <li>
-                    Built with React, Node, Express, PostgreSQL
+                    Built API routes for messaging between users using
+                    Nodemailer.
                   </li>
                   <li>
-                    Some of my contributions include custom route authentication
-                    middleware for the backend API, frontend components used for
-                    rendering users and profile pages as well as an interactive
-                    training module.
+                    Implemented custom middleware to decrypt JSON web tokens and
+                    authencate protected API routes.
+                  </li>
+                  <li>
+                    Created an interactive training module to help users
+                    understand how the app works.
+                  </li>
+                  <li>
+                    Created multiple frontend components used for rendering
+                    users and profile pages.
                   </li>
                 </ul>
                 <div class="button-container">
@@ -133,20 +142,21 @@
                   Providing trainers and clients the freedom to find each other
                   and connect outside of a gym. Air Fitness gives trainers the
                   ability to keep track of attendance and for clients to find
-                  new classes.
+                  new classes. Air Fitness was built with HTML, CSS, JS, React,
+                  Node, Express and PostgreSQL. It was built in 4 days with a 3
+                  member team.
                 </p>
                 <p>Project Overview</p>
                 <ul>
                   <li>
-                    4 day project with 3 team members
+                    Built a single page application using React.
                   </li>
                   <li>
-                    Built with HTML, CSS, JS, React, Node, Express, PostgreSQL
+                    Implemented routing using react-router and handled AJAX
+                    requests using axios.
                   </li>
                   <li>
-                    I created the frontend as a single page application using
-                    React and styled with CSS. Some key APIs include axios and
-                    react-router.
+                    Styled using CSS
                   </li>
                 </ul>
                 <div class="button-container">
@@ -175,24 +185,27 @@
               </div>
               <div class="col-12 col-12-medium col-12-small">
                 <h3>Droom</h3>
+                <br />
                 <p>
                   The idea behind Droom is to bring employers and job seekers
                   together in a way where mutual interest is assured. Employers
                   create job postings and approve or disapprove candidates and
-                  vice versa for job seekers. When a mutual match has been made
-                  both parties are notified.
+                  vice versa for job seekers. When a mutual match has been made,
+                  both parties are notified. Droom was built with HTML, CSS, JS,
+                  React, Node, Express and SQLite. This was a 4 day project with
+                  3 team members.
                 </p>
                 <p>Project Overview</p>
                 <ul>
                   <li>
-                    4 day project with 3 team members
+                    Created a fully responsive marketing site for Droom using
+                    HTML, CSS and Javascript.
                   </li>
                   <li>
-                    Built with HTML, CSS, JS, React, Node, Express, SQLite
+                    Built the layout using Flexbox
                   </li>
                   <li>
-                    I contributed by building a fully responsive marketing site
-                    for Droom using HTML, LESS/CSS and Javascript.
+                    Implemented styles using LESS for preprocessing
                   </li>
                 </ul>
                 <div class="button-container">
@@ -220,7 +233,7 @@
           <header>
             <h2>Contact Me</h2>
           </header>
-          <form action="#" method="post">
+          <form action="POST" data-netlify="true">
             <div>
               <div class="row">
                 <div class="col-6 col-12-medium">
@@ -238,6 +251,9 @@
                     placeholder="Message"
                     rows="6"
                   ></textarea>
+                </div>
+                <div class="spam">
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
                 <div class="col-12">
                   <input type="submit" value="Send Message" />
